@@ -1,9 +1,11 @@
 package main
+import (
+	"./mystring"
+	"./mytime"
+)
 
-import "fmt"
+func main() {
 
-func main(){
-
-	fmt.Println("xx")
-
+	mytime.List()
+	mystring.List()
 }

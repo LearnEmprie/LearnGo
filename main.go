@@ -16,4 +16,5 @@ func main() {
 	//fmt.Println(TheStruct)
 	mystruct.List()
 	fmt.Println()
+	mystruct.Ints()
 }
